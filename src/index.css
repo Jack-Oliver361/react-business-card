@@ -1,0 +1,15 @@
+html, body, #root {
+  /* To make use of full height of page*/
+  height: 100%;
+  margin: 0;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background: #23252C;
+  font-family: Inter, sans-serif;
+}
+body > #root {
+  text-align: center;
+  padding: 100px;
+}

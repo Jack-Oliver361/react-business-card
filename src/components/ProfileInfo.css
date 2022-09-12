@@ -1,0 +1,64 @@
+.profile-pic {
+    height: 500px;
+    width: 450px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+.profile-name {
+    margin-bottom: -.5rem;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.profile-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+}
+.profile-email {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+button {
+    font-family: 'Inter';
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+}
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.btn-email {
+    padding: 9px 13px 9px 11px;
+    background: #FFFFFF;
+    color: #374151;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.btn-social {
+    padding: 9px 13px 9px 11px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    background: #5093E2;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}

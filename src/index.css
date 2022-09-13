@@ -4,12 +4,13 @@ html, body, #root {
   margin: 0;
 }
 body {
+  display: flex;
   height: 100%;
   margin: 0;
   background: #23252C;
   font-family: Inter, sans-serif;
 }
 body > #root {
-  text-align: center;
-  padding: 100px;
+  margin: 0 auto;
+  padding: 50px;
 }

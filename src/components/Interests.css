@@ -1,8 +1,8 @@
-.about-me {
+.interests {
     flex-flow:column;
     display: flex;
 }
-.about-me > h3, .about-me > p {
+.interests > h3, .interests > p {
     width: 325px;
     padding-left: 20px;
 }

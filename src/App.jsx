@@ -1,5 +1,6 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
+import Interests from './components/Interests';
 import ProfileInfo from './components/ProfileInfo';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <ProfileInfo />
       <AboutMe />
+      <Interests />
     </div>
   )
 }
